@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Pochaevsk&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Pochaevsk&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Pacifico&family=Pochaevsk&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Caveat:wght@400..700&family=Pacifico&family=Pochaevsk&display=swap" rel="stylesheet">
+    <title>Cards</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            background-color: #ece5e5;
+        }
+        h1 {
+            font-size: 24px;
+            padding: 10px;
+            background: linear-gradient(to right, #ffffff, #ffcccc);
+            border: 1px solid #c54545;
+            display: inline-block;
+            border-radius: 8px;
+            box-shadow: 3px 10px 10px rgba(58, 58, 58, 0.2);
+            transition-delay: 1s;
+            transition-duration: 0.5s;
+            transition: transform 0.3s ease-in-out, font-family 0.3s ease-in-out;
+            text-transform: uppercase;
+            cursor: pointer;
+        }
+        
+    
+        
+        .container {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            margin-top: 20px;
+            flex-wrap: wrap;
+        }
+        .v{
+            width: 150px;
+            height: 150px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 20px;
+            border-radius: 10px;
+            box-shadow: 5px 15px 15px rgba(18, 0, 13, 0.3);
+            transition-delay: 1s;
+            transition-duration: 0.5s;
+            transition: transform 0.3s ease-in-out, font-family 0.3s ease-in-out;
+            text-transform: uppercase;
+            cursor: pointer;
+        }
+        .v:hover{
+            transform: scale(1.1);
+            color: rgb(2, 27, 21);
+        }
+        .PYTHON{
+            font-family: 'Oswald','Josefin Slab' sans-serif; background-color: #a7a7d9;
+        
+        }
+            .JAVA{
+                font-family: 'Josefin Slab', sans-serif; background-color: #b3d37f;
+        }
+        .VUEJS{
+                font-family: 'Oswald', sans-serif; background-color: #6f79e6;
+        }
+        .PHP{
+                font-family: 'Oswald', sans-serif; background-color: #71d0e1;
+        }
+        .HTML{
+                font-family: 'Oswald', sans-serif; background-color: #b57dd2;
+        }
+        .CSS{
+                font-family: 'Oswald', sans-serif; background-color: #e17178;
+        }
+        .BOOTSTRAP{
+                font-family: 'Oswald', sans-serif; background-color: #7557ea;
+        }
+        .REACT{
+                font-family: 'Oswald', sans-serif; background-color: #71d0e1;
+        }
+        .ANGULARJS{
+                font-family: 'Oswald', sans-serif; background-color: #e0385a;
+        }
+        .Django{
+                font-family: 'Oswald', sans-serif; background-color: #a675c9;
+        }
+        .NODEJS{
+                font-family: 'Oswald', sans-serif; background-color: #bfce94;
+        }
+        #python:hover{
+            font-family: "Pochaevsk", serif;
+  font-weight: 400;
+  font-style: normal;
+        }
+        .JAVA:hover{
+            font-family: "Bebas Neue", serif;
+  font-weight: 400;
+  font-style: normal;
+
+        }
+        .vue:hover{
+            font-family: "Pacifico", serif;
+  font-weight: 400;
+  font-style: normal;
+
+        }
+        .php:hover{
+            font-family: "Bebas Neue", serif;
+  font-weight: 400;
+  font-style: normal;
+
+        }
+        .html:hover{
+            font-family: "Caveat", serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+
+        }
+        .css:hover{
+            font-family: "Caveat", serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+
+        }
+        .SCRIPT:hover{
+            font-family: "Pochaevsk", serif;
+  font-weight: 400;
+  font-style: normal;
+
+        }
+        .boot:hover{
+
+            font-family: "Pacifico", serif;
+  font-weight: 400;
+  font-style: normal;
+        }
+        .react:hover{
+            font-family: "Bebas Neue", serif;
+  font-weight: 400;
+  font-style: normal;
+
+        }
+        .ANGULAR:hover{
+            font-family: "Caveat", serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+
+        }
+        .dj:hover{
+          
+            font-family: "Pochaevsk", serif;
+  font-weight: 400;
+  font-style: normal;
+        }
+        .node:hover{
+
+            font-family: "Pacifico", serif;
+  font-weight: 400;
+  font-style: normal;
+        }
+    </style>
+</head>
+<body>
+    <h1>Web Development Technologies</h1>
+    <div class="container">
+        <div class="v PYTHON" id="python">PYTHON </div>
+        <div class="v JAVA" id="JAVA">JAVA</div>
+        <div class=" v VUEJS" id="vue">VUE.JS</div>
+        <div class="v PHP" id="php">PHP</div>
+        <div class="v HTML" id="html">HTML</div>
+        <div class="v CSS" id="css">CSS</div>
+        <div class="v JAVA SCRIPT" id="SCRIPT">JAVA SCRIPT</div>
+        <div class="v BOOTSTRAP" id="boot">BOOTSTRAP</div>
+        <div class="v REACT JS" id="react">REACT.JS</div>
+        <div class="v ANGULARJS" id="ANGULAR">ANGULAR.JS</div>
+        <div class="v Django" id="dj">DJANGO</div>
+        <div class="v NODEJS" id="node">NODE.JS</div>
+
+    </div>
+</body>
+</html>
